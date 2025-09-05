@@ -1,0 +1,17 @@
+.env
+serviceAccountKey.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+dev.db
+.venv/
+venv/
+.env.*
+.idea/
+.vscode/
+dist/
+build/
+*.zip
+serviceAccountKey.json
