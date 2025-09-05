@@ -1,7 +1,7 @@
 # FastAPI + Firebase Auth + SQL Task Manager
 
 A learning-friendly starter that uses **Firebase Authentication** for sign-up/login
-and **SQL (SQLite by default)** for the main app data (tasks). Built with **FastAPI**.
+and **SQL (MySql)** for the main app data (tasks). Built with **FastAPI**.
 
 ---
 
@@ -70,19 +70,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## Switching to Postgres later
 
-Change `DATABASE_URL` in `.env` to something like:
-
-```
-postgresql+psycopg2://postgres:password@localhost:5432/taskdb
-```
-
-Install `psycopg2-binary` if needed:
-
-```
-pip install psycopg2-binary
-```
 
 ---
 
